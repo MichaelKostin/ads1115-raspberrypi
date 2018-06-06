@@ -1,0 +1,20 @@
+{
+  "name": "ads1115",
+  "version": "1.0.0",
+  "description": "",
+  "main": "ads1115.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "ads115",
+    "example",
+    "ads"
+  ],
+  "author": "m.kostin",
+  "license": "MIT",
+  "dependencies": {
+    "johnny-five": "^0.15.0",
+    "raspi-io": "^9.0.0"
+  }
+}
