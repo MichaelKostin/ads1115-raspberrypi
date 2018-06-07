@@ -22,4 +22,6 @@
 ``` sudo node ads1115.js ```
 
 
-More information about ADS115 you can find on [Datasheet](http://www.ti.com/lit/ds/symlink/ads1115.pdf)
+The repository was created for article (rus) [Подключение АЦП ADS1115 к Raspberry pi] (https://kostin.by/2018/06/06/podkljuchenie-acp-ads1115-k-raspberry-pi/)
+More information about ADS1115 you can find on [Datasheet](http://www.ti.com/lit/ds/symlink/ads1115.pdf)
+
