@@ -8,7 +8,8 @@ const pga = 6114;
 
 board.on('ready', function() {
   const virtual = new five.Board.Virtual(new five.Expander({ controller: 'ADS1115' }));
-  virtual.io.REGISTER.PIN_DATA = 0b10100011; /second byte of config 
+  // virtual.io.REGISTER.PIN[0]= 0b11000001; // first byte of config
+  virtual.io.REGISTER.PIN_DATA = 0b10100011; // second byte of config
 
   const sensor = new five.Sensor({
     pin: 0,
